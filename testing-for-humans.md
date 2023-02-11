@@ -50,3 +50,12 @@ Make sure everyone is notified when a job fails and react accordingly
 ### Keep tests independent
 - Use discipline
 - Execute them in order
+
+## Decision table for writing a test
+| likelihood | severity | easy to write | write it? |
+| --- | --- | --- | --- |
+| high | high | yes | yes |
+| low | low | yes | probably |
+| low | high | no | don't bother |
+| high | high | no | yes |
+
